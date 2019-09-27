@@ -5,7 +5,7 @@ What are included:
 1. [Storybook](https://storybook.js.org/) 
 1. [Mobx](https://mobx.js.org/) 
 1. [Material UI](https://material-ui.com/) 
-1. S3 deployment scripts
+1. [S3](https://aws.amazon.com/s3/) & [CloudFront](https://aws.amazon.com/cloudfront/) deployment scripts
 
 
 ## Available Scripts
