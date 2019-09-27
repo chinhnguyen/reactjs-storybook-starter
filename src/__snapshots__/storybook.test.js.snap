@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots StartPage normal 1`] = `
+<div
+  className="MuiGrid-root makeStyles-main-1 MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-xs-center"
+>
+  <div
+    className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-card-2 MuiPaper-rounded"
+  >
+    <div
+      className="MuiCardContent-root"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column MuiGrid-align-items-xs-center MuiGrid-justify-xs-center"
+      >
+        <img
+          className="makeStyles-image-3"
+          src="/start-logo.png"
+        />
+        <h4
+          className="MuiTypography-root makeStyles-title-4 MuiTypography-h4 MuiTypography-gutterBottom"
+        >
+          CONVERSATIONAL CHINESE
+        </h4>
+        <h2
+          className="MuiTypography-root makeStyles-汉语会话-5 MuiTypography-h2 MuiTypography-gutterBottom"
+        >
+          汉语会话
+        </h2>
+        <button
+          className="MuiButtonBase-root MuiButton-root makeStyles-start-6 MuiButton-contained MuiButton-containedPrimary"
+          disabled={false}
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiButton-label"
+          >
+            Start
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

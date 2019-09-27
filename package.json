@@ -1,0 +1,81 @@
+{
+  "name": "reactjs-storybook-starter",
+  "version": "1.0.926.3",
+  "private": false,
+  "dependencies": {
+    "@babel/runtime": "^7.5.5",
+    "@date-io/date-fns": "^1.3.11",
+    "@material-ui/core": "^4.1.0",
+    "@material-ui/icons": "^3.0.2",
+    "@material-ui/lab": "^4.0.0-alpha.26",
+    "@material-ui/pickers": "^3.2.6",
+    "@material-ui/styles": "^4.0.2",
+    "clsx": "^1.0.4",
+    "date-fns": "^2.2.1",
+    "enzyme": "^3.10.0",
+    "husky": "^2.4.0",
+    "lint-staged": "^8.2.0",
+    "mobx": "^5.10.1",
+    "mobx-react-lite": "^1.3.2",
+    "mobx-state-tree": "^3.14.0",
+    "moment": "^2.24.0",
+    "navi": "^0.12.8",
+    "prettier": "^1.18.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-navi": "^0.12.8",
+    "react-number-format": "^4.2.0",
+    "react-scripts": "3.0.1",
+    "react-text-mask": "^5.4.3",
+    "styled-components": "^4.2.0"
+  },
+  "aws_s3_bucket": "reactjs-storybook-starter",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "upload": "aws s3 sync build/ s3://$npm_package_s3_bucket",
+    "deploy": "npm run build && npm run upload",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^5.1.11",
+    "@storybook/addon-links": "^5.1.11",
+    "@storybook/addon-storyshots": "^5.1.11",
+    "@storybook/addons": "^5.1.11",
+    "@storybook/react": "^5.1.11",
+    "storybook-react-router": "^1.0.7",
+    "aws-sdk": "^2.535.0",
+    "babel-plugin-macros": "^2.6.1",
+    "react-test-renderer": "^16.8.6",
+    "require-context.macro": "^1.1.1"
+  }
+}
