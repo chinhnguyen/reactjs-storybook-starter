@@ -1,12 +1,15 @@
 Boiler plate for [ReactJS](https://reactjs.org/) with [Storybook](https://storybook.js.org/). 
 
-What are included:
+## What are included
 1. [ReactJS](https://reactjs.org/) with [hooks](https://reactjs.org/docs/hooks-intro.html)
 1. [Storybook](https://storybook.js.org/) 
 1. [Mobx](https://mobx.js.org/) 
 1. [Material UI](https://material-ui.com/) 
 1. [S3](https://aws.amazon.com/s3/) & [CloudFront](https://aws.amazon.com/cloudfront/) deployment scripts
 
+## Screenshots
+### Start page
+![](https://github.com/chinhnguyen/reactjs-storybook-starter/raw/master/images/start-page.png)
 
 ## Available Scripts
 
